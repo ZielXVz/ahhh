@@ -1,4 +1,4 @@
-#Author : JetX
+#Author : ZieLx
 import random
 import socket
 import threading
